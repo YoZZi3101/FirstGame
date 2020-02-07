@@ -1,0 +1,124 @@
+#wrapper{
+  width: 960px;
+  /* Den Div in die Mitte setzen */
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  font-family: arial,sans-serif;
+}
+
+/*
+html{
+  background: #3D3D3D;
+}*/
+
+body{
+  background-color: #EDEBE8;
+}
+
+header{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50px;
+  text-align: center;
+}
+
+nav{
+  margin-top: 30px;
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  display: inline;
+  margin-right: 40px;
+}
+
+a{
+  color: #777;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+
+a:hover{
+  border-bottom: 2px solid black;
+}
+
+.article{
+  height: 120px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.article img{
+  float: left;
+  padding:  5px;
+  margin-right: 10px;
+  border: 1px solid #DEDCD9;
+}
+
+.article a{
+  font-size: 18px;
+}
+
+section{
+  width: 603px;
+  float: left;
+  padding: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  background-color: #F2F2F2;
+  border: 1px solid #DEDCD9;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+aside{
+  width: 258px;
+  float: right;
+  padding: 25px;
+  margin-top: 15px;
+  background-color: #F2F2F2;
+  border: 1px solid #DEDCD9;
+  border-radius: 5px;
+}
+
+.sidebar img{
+  padding: 5px;
+  margin-top: 15px;
+  border: 1px solid #DEDCD9;
+}
+
+.sidebar p{
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+
+footer{
+  height: 50px;
+  clear: both;
+  background-color: #F2F2F2;
+  border: 1px solid #DEDCD9;
+  border-radius: 5px;
+}
+
+footer ul{
+  float: left;
+  list-style: none;
+  padding: 0px;
+  margin: 17px;
+}
+
+footer li{
+  margin-right: 15px;
+  display: inline;
+}
+
+footer p{
+  text-align: right;
+  margin-right: 20px;
+  color: #777;
+}
